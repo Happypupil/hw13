@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dfe5e8;
+    font-family: Roboto,Arial,Tahoma,sans-serif;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%; 
+    margin: auto;
+    margin-top: 30px;
+    padding: 12px 30px;
+}
+
+.menu_top {
+    position: absolute;
+    display: flex;
+}
+
+.logo img {
+    width: 140px;
+    height: 30px;
+}
+.search input {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 50px;
+    padding: 7px 10px;
+    width: 600px;
+    height: 30px;
+}
+
+.search {
+    position: relative;
+    width: 400px;
+}
+
+.button_search {
+    position: absolute;
+    background-color: #fff;
+    margin-left: 622px;
+    border: none;
+    cursor: pointer;
+    margin-top: -22px;
+    width: 20px;
+}
+
+.upload{
+    width: 25px;
+    color: red;
+    margin-left: 300px;
+    border-radius: 50%;
+    height: 30px;
+}
+
+.fas {
+    font-weight: 900;
+}
+
+.btn-upload {   
+    display: inline-block;
+    background-color: red;
+    border-radius: 50%;
+    transition: all .5s;
+    color: #fff;
+    height: 32px;
+    line-height: 31px;
+    text-align: center;
+    width: 32px;
+}
+
+.sign_in {
+    width: 25px;
+    color: #79818c;
+    margin-left: 300px;
+    border-radius: 50%;
+    height: 30px;
+}
+
+.btn-sign_in {
+    display: inline-block;
+    background-color: #79818c;
+    border-radius: 50%;
+    transition: all .5s;
+    color: #fff;
+    height: 32px;
+    line-height: 31px;
+    text-align: center;
+    width: 32px;
+    margin-left: -280px;
+}
+
+.user_plus {
+    width: 25px;
+    color: #79818c;
+    margin-left: 300px;
+    border-radius: 50%;
+    height: 30px;
+}
+
+.btn-user_plus {
+    display: inline-block;
+    background-color: #79818c;
+    border-radius: 50%;
+    transition: all .5s;
+    color: #fff;
+    height: 32px;
+    line-height: 31px;
+    text-align: center;
+    width: 32px;
+    margin-left: -560px;
+}
+
+.sun {
+    width: 25px;
+    color: #79818c;
+    margin-left: 300px;
+    border-radius: 50%;
+    height: 30px;
+}
+
+.btn-sun {
+    display: inline-block;
+    background-color: #79818c;
+    border-radius: 50%;
+    transition: all .5s;
+    color: #fff;
+    height: 32px;
+    line-height: 31px;
+    text-align: center;
+    width: 32px;
+    margin-left: -845px;
+}
+
+.rus {
+    width: 25px;
+    height: 30px;
+    border-radius: 50%;
+    color: red;
+
+}
+
+.btn-ru {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #79818c;
+
+    transition: all .5s;
+    color: #fff;
+    height: 32px;
+    line-height: 31px;
+    text-align: center;
+    font-size: x-small;
+    width: 32px;
+    margin-left: -766px;
+    text-decoration: none;
+}
+
+.uzb {
+    width: 25px;
+    height: 30px;
+    border-radius: 50%;
+    color: #79818c;
+}
+
+.btn-uzb {
+    display: inline-block;
+    background-color: #79818c;
+    border-radius: 50%;
+    font-size: x-small;
+    transition: all .5s;
+    color: #fff;
+    height: 32px;
+    line-height: 31px;
+    text-align: center;
+    width: 32px;
+    margin-left: -745px;
+    text-decoration: none;
+}
+
+.btn-uzb:focus {
+    background-color: rgb(122, 58, 58);
+}
+
+.btn-ru:focus {
+    background-color: rgb(122, 58, 58);
+}
+
+.menu_bottom {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 120px;
+    background-color: #607d8b;
+    border: 1px solid #607d8b;
+    height: 60px;
+    margin-left: -20px;
+    width: 1190px;
+} 
+.btn-yumor {
+    font-size: 16px;
+    padding: 20px 14px ;
+    color: #dfe5e8;
+    text-decoration: none;
+}
+
+.btn-yumor:hover {
+    background-color: #78909c;
+    color: #ffffff;
+}
+.btn-yumor:focus{
+    background: #8e9ea7;
+    color: #fff;
+    opacity: 5;
+}
+
+.prochee  {
+    width: 100px;
+   
+    border: none;
+    background-color: #607d8b;
+}
+
+.all {
+    border: none;
+}
+
+.prochee:hover {
+    background-color: #78909c;
+}
+
